@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<header class="header">
+		<a href="#" id="Sub_1" class="header">Introduction</a>
+		<a href="#" id="sub_main" class="header">Methodologies</a>
+		<a href="#" id="submain" class="header">Why BEM over the others?</a>
+		<a href="#" id="ex" class="header">Blocks, Elements and Modifiers</a>
+		<a href="#" id="sup_main" class="header">Benefits</a>
+	</header>
+	<main class="main">
+		<div id="sub_1" class="intro">
+			<h1>introduction</h1>
+			<p>On smaller brochure sites, how you organize your styles isn’t usually a big concern. You get in there, write
+				some CSS, or maybe even some SASS. You compile it all into a single stylesheet with SASS’s production
+				settings, and then you aggregate it to get all the stylesheets from modules into a nice tidy package.</p>
+			<br>
+			<br>
+			<p>However, when it comes to larger, more complex projects, how you organize your code is the key to efficiency
+				in at least these three ways: it affects how long it takes you to write code, how much of that code you’ll
+				have to write and how much loading your browser will have to do. This becomes especially important when
+				you’re working with teams of themers, and when high performance is essential.</p>
+			<br>
+			<br>
+			<p>This is also true for long-term projects with legacy code <a
+					href="https://webuild.envato.com/blog/how-to-scale-and-maintain-legacy-css-with-sass-and-smacss/"
+					target="_blank">(read “How to Scale and Maintain Legacy CSS with Sass and SMACSS”</a> — some nice SMACSS
+				and BEM mixing in there).</p>
+		</div>
+
+		<div class="main">
+			<h2>Methodologies</h2>
+			<p>There are plenty of <a
+					href="https://github.com/awesome-css-group/awesome-css#naming-conventions--methodologies-bulb"
+					target="_blank">methodologies</a> out there aiming to reduce the CSS footprint, organize cooperation
+				among programmers and maintain large CSS codebases. This is obvious in large projects like Twitter, Facebook
+				and GitHub, but other projects often grow into some “Huge CSS file” state pretty quickly.</p>
+			<ul id="list" class="list">
+				<li><a href="https://ru.bem.info/methodology/css/" target="_blank">OOCSS</a>
+					— Separating container and content with CSS “objects”
+				</li>
+				<li><a href="https://ru.bem.info/methodology/css/" target="_blank">SMACSS</a>
+					— Style-guide to write your CSS with five categories for CSS rules
+				</li>
+				<li><a href="https://ru.bem.info/methodology/css/">SUITCSS</a>Structured class names and meaningful hyphens
+				</li>
+				<li><a href="https://ru.bem.info/methodology/css/">Atomic</a>— Breaking down styles into atomic, or
+					indivisible, pieces</li>
+			</ul>
+		</div>
+		<div id="sup_main" class="main">
+			<h2>Why BEM over the others?</h2>
+			<p>No matter what methodology you choose to use in your projects, you will benefit from the advantages of more
+				structured CSS and UI. Some styles are less strict and more flexible, while others are easier to understand
+				and adapt in a team.</p>
+
+			<blockquote>The reason I choose BEM over other methodologies comes down to this: it is less confusing than the
+				other methods (i.e. SMACSS) but still provides us the good architecture we want (i.e. OOCSS) and with a
+				recognizable terminology. - Mark McDonnell, Maintainable CSS with BEM</blockquote>
+
+			<h2 id="submain" class="main">Blocks, Elements and Modifiers</h2>
+			<h4 class="main">Block</h4>
+			<p>Standalone entity that is meaningful on its own.</p>
+			<br>
+			<br>
+			<h4>Examples</h4>
+			<div id="ex" class="examples">
+				<p>'header', 'container', 'menu', 'checkbox', 'input'</p>
+			</div>
+			<div id="image" class="main__cointeiner">
+				<h3>Image</h3>
+				<img src="img/1.jpg" alt="biuld elements">
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="about">
+			<div class="container__about">
+				<ul class="link" style="color: #3fada8;">
+					<li>YouTube</li>
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>Linkedin</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
