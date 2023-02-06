@@ -1,0 +1,79 @@
+
+@import url(fonts.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
+
+/* Reset css */
+@import url(reset.css);
+
+}
+.header {
+	font-family: "Poppins", sans-serif;
+	
+}
+
+p.page__header__text{
+	margin: 0;
+	padding: 0;
+}
+.header_block{
+	background-image: radial-gradient(#f79d00,#64f38c);
+	
+}
+#link, #link2 {
+	text-shadow: 2px 2px 5px  #bc1dca;
+	text-decoration: underline;
+}
+.header__text {
+	text-align: center;
+	font-weight:500 ;
+	text-shadow: 5px 5px 8px #14f0c8;
+	font-size: 45px;
+	
+}
+.main {
+	font-family: "Teko", cursive;
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1))
+
+	
+}
+.page__header {
+	
+	font-size: 30px;
+}
+.page__header__title {
+}
+.page__header__text {
+	font-family: 'Dancing Script', cursive;
+}
+.page__middle {
+	font-family: 'Teko' cursive,
+	 
+}
+.page__middle__title {
+	font-size: 30px;
+}
+.page__middle__text {
+	font-family:'Dancing Script',cursive;
+	font-size: 30px;
+}
+.page__example {
+	font-family: "Poppins", cursive;
+	font-size: 25px;
+}
+.page__example__title {
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 3px 3px 5px #bc1dca;
+}
+.page__example__text {
+	
+
+}
+.page__example__2 {
+	font-family:"Poppins",cursive ;
+	font-size: 25px;
+	text-decoration: double;
+}
+.footer {
+}
